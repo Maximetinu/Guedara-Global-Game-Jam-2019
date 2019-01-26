@@ -1,9 +1,13 @@
 fileFormatVersion: 2
-guid: 8fce7289aaa91364482f4efe100d8fd4
+guid: 9dfb766206727864aab132bfbe786851
 TextureImporter:
   fileIDToRecycleName:
-    21300000: abuela_idle_invierno_0
-    21300002: abuela_idle_invierno_1
+    21300000: abuelo_caminando_verano_0
+    21300002: abuelo_caminando_verano_1
+    21300004: abuelo_caminando_verano_2
+    21300006: abuelo_caminando_verano_3
+    21300008: abuelo_caminando_verano_4
+    21300010: abuelo_caminando_verano_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -49,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -119,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abuela_idle_invierno_0
+      name: abuelo_caminando_verano_0
       rect:
         serializedVersion: 2
         x: 0
@@ -129,23 +133,17 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -2, y: -1}
-        - {x: -7, y: -5}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -12}
-        - {x: 3, y: -1}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 122c2199de2950445a4db309e624009e
+      spriteID: f872caa6a62e5934692f25a208d26f78
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_idle_invierno_1
+      name: abuelo_caminando_verano_1
       rect:
         serializedVersion: 2
         x: 20
@@ -155,18 +153,91 @@ TextureImporter:
       alignment: 9
       pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline:
-      - - {x: -3, y: -2}
-        - {x: -7, y: -6}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -9}
-        - {x: 3, y: -3}
-        - {x: 1, y: -2}
+      outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3232cd32882b9cd40ba3a48c64573da0
+      spriteID: 411f4dfc130b4ef4ca66ae2da0180efe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_verano_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7c948ce485d3146b7c803bc84645d9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_verano_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72195cb38da585429c00b9b9839a831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_verano_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b5656dc7cc7a44e99905d6c6404dc9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_verano_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c134b8be29d991342934aa2aa4b4bf33
       vertices: []
       indices: 
       edges: []

@@ -1,9 +1,13 @@
 fileFormatVersion: 2
-guid: 8fce7289aaa91364482f4efe100d8fd4
+guid: 1eff9687b306f7343a5ee3810a0e5bd1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: abuela_idle_invierno_0
-    21300002: abuela_idle_invierno_1
+    21300000: abuelo_caminando_invierno_0
+    21300002: abuelo_caminando_invierno_1
+    21300004: abuelo_caminando_invierno_2
+    21300006: abuelo_caminando_invierno_3
+    21300008: abuelo_caminando_invierno_4
+    21300010: abuelo_caminando_invierno_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -49,7 +53,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -119,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abuela_idle_invierno_0
+      name: abuelo_caminando_invierno_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,22 +134,23 @@ TextureImporter:
       pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: -1}
-        - {x: -7, y: -5}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -12}
-        - {x: 3, y: -1}
+      - - {x: -3, y: -2}
+        - {x: -8, y: -6}
+        - {x: -8, y: -9}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -3}
+        - {x: 1, y: -2}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 122c2199de2950445a4db309e624009e
+      spriteID: d5353c8ef5d78614c95b14cf63119c3f
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_idle_invierno_1
+      name: abuelo_caminando_invierno_1
       rect:
         serializedVersion: 2
         x: 20
@@ -156,17 +161,128 @@ TextureImporter:
       pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3, y: -2}
-        - {x: -7, y: -6}
+      - - {x: 1, y: -3}
+        - {x: -3, y: -3}
+        - {x: -8, y: -7}
+        - {x: -8, y: -11}
         - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -9}
-        - {x: 3, y: -3}
-        - {x: 1, y: -2}
+        - {x: 4, y: -16}
+        - {x: 5, y: -15}
+        - {x: 5, y: -12}
+        - {x: 3, y: -4}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3232cd32882b9cd40ba3a48c64573da0
+      spriteID: ac25768139b781245863dd7915cb1743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_invierno_2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -2}
+        - {x: -3, y: -2}
+        - {x: -8, y: -6}
+        - {x: -8, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37abb78a91d1f4e49aeebcec3034e797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_invierno_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -2}
+        - {x: -3, y: -2}
+        - {x: -8, y: -6}
+        - {x: -8, y: -14}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7d971c9b696b1d4193a2ba66e22e490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_invierno_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -2}
+        - {x: -4, y: -2}
+        - {x: -7, y: -3}
+        - {x: -8, y: -7}
+        - {x: -8, y: -12}
+        - {x: -5, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b078fcd6116b34243aadceb60468799b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: abuelo_caminando_invierno_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: -2}
+        - {x: -4, y: -2}
+        - {x: -7, y: -3}
+        - {x: -8, y: -7}
+        - {x: -8, y: -12}
+        - {x: -6, y: -16}
+        - {x: 4, y: -16}
+        - {x: 4, y: -3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b7174f653b2f2e4785e76ac6dd06b32
       vertices: []
       indices: 
       edges: []
