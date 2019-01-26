@@ -4,7 +4,7 @@ using UnityEngine;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
-public class GedaraMovement : MonoBehaviour
+public class GuedaraMovement : MonoBehaviour
 {
     public float speed;
 

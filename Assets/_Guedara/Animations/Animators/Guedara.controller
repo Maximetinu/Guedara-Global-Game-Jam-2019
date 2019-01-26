@@ -6,7 +6,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Gedara
+  m_Name: Guedara
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: moving
@@ -14,7 +14,7 @@ AnimatorController:
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 0}
+    m_Controller: {fileID: 9100000}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
@@ -126,7 +126,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: e3309857871e0164da7d4d9ca7412674, type: 2}
+  m_Motion: {fileID: 7400000, guid: 83eceef3ba0345b4e9ac13c76efca502, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
