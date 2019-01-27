@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
-[RequireComponent(typeof(TextMeshPro))]
+[RequireComponent(typeof(TextMeshProUGUI))]
 public class TextWriter : MonoBehaviour
 {
 
@@ -18,13 +18,13 @@ public class TextWriter : MonoBehaviour
     private String text;
     private float lastUpdate;
     private int index = 0;
-    private TextMeshPro textMeshPro;
+    private TextMeshProUGUI textMeshPro;
     private char lastChar = ' ';
     
     // Start is called before the first frame update
     private void Start()
     {
-        textMeshPro = GetComponent<TextMeshPro>();
+        textMeshPro = GetComponent<TextMeshProUGUI>();
         text = textMeshPro.text;
         textMeshPro.text = "";
         lastUpdate = Time.time;

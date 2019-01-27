@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 73786cd7a464b6b40a2b2fd77bf2993c
+guid: 870601f58b3593e428f8801c37cf626d
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,9 +8,9 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: AutoAdvanceText
+  fontName: My Font
   fontNames:
-  - AutoAdvanceText
+  - My Font
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
