@@ -394,7 +394,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  disableOnSelect: 1
+  disableOnSelect: 0
 --- !u!1 &5337476064030524133
 GameObject:
   m_ObjectHideFlags: 0

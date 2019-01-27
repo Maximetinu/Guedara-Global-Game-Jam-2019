@@ -282,6 +282,23 @@ MonoBehaviour:
   coupleButton: {fileID: 1282380422}
   petButton: {fileID: 596666383}
   familyButton: {fileID: 519858407}
+  ifNothingUnlocked:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2067433973}
+        m_MethodName: Play
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: FullFadeOut
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  nothingUnlockedWait: 2
 --- !u!4 &145994031 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4373740190419638176, guid: 48336b6a62331e34dba77fb019cc2f0f,
