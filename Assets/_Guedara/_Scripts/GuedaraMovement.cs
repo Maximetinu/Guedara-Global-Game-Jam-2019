@@ -10,6 +10,8 @@ public class GuedaraMovement : MonoBehaviour
 
     SpriteRenderer mySprite;
     Animator myAnim;
+
+    private bool canMove = true;
     
     // Start is called before the first frame update
     void Start()
@@ -21,19 +23,42 @@ public class GuedaraMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float horizontalInput = Input.GetAxis("Horizontal");
-        myAnim.SetBool("moving", Mathf.Abs(horizontalInput) > 0f);
+        float nextStep = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
         
-        transform.position += horizontalInput * Vector3.right * speed * Time.deltaTime;
-
         // IF Going right AND looking left THEN look right
-        if (horizontalInput > 0f && mySprite.flipX == true)
+        if (nextStep > 0f && mySprite.flipX == true)
         {
             mySprite.flipX = false; // Look left
         }
-        else if (horizontalInput < 0f && mySprite.flipX == false)
+        else if (nextStep < 0f && mySprite.flipX == false)
         {
             mySprite.flipX = true;
         }
+
+        if (canMove && Mathf.Abs(transform.position.x + nextStep) < 8f)
+        {
+            myAnim.SetBool("moving", Mathf.Abs(nextStep) > 0f);
+            transform.position += nextStep * Vector3.right;
+        }
+        
+
+    }
+    
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("Armonica"))
+        {
+            myAnim.SetTrigger("coger_armonica");
+            Destroy(other.gameObject);
+            canMove = false;
+            playArmonica();
+        }
+
+    }
+
+    private void playArmonica()
+    {
+        GetComponent<AudioSource>().Play();
     }
 }
