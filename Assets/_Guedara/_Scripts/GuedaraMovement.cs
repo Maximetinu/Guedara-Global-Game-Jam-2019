@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(Animator))]
@@ -8,10 +9,15 @@ public class GuedaraMovement : MonoBehaviour
 {
     public float speed;
 
+    public float timePlayingArmonica = 6;
+    public UnityEvent onPlayArmonica;
+
     SpriteRenderer mySprite;
     Animator myAnim;
 
     private bool canMove = true;
+    private bool playingArmonica = false;
+    private float playingTimeToStop = 0f;
     
     // Start is called before the first frame update
     void Start()
@@ -40,7 +46,13 @@ public class GuedaraMovement : MonoBehaviour
             myAnim.SetBool("moving", Mathf.Abs(nextStep) > 0f);
             transform.position += nextStep * Vector3.right;
         }
-        
+
+        if (playingArmonica && Time.time >= playingTimeToStop)
+        {
+            GetComponent<AudioSource>().Stop();
+            playingArmonica = false;
+            onPlayArmonica?.Invoke();
+        }
 
     }
     
@@ -60,5 +72,7 @@ public class GuedaraMovement : MonoBehaviour
     private void playArmonica()
     {
         GetComponent<AudioSource>().Play();
+        playingArmonica = true;
+        playingTimeToStop = Time.time + timePlayingArmonica;
     }
 }
