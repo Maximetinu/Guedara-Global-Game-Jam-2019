@@ -8,6 +8,7 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 {
     public Texture2D cursorHoverTexture;
     public UnityEvent onSelect;
+    public bool disableOnSelect = true;
 
     private void Start()
     {
@@ -20,6 +21,11 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
         if (eventData.pointerCurrentRaycast.gameObject == gameObject)
         {
             onSelect.Invoke();
+            if (disableOnSelect)
+            {
+                ResetCursor();
+                Destroy(this);
+            }
         }
     }
     

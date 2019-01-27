@@ -60,4 +60,10 @@ public class TextWriter : MonoBehaviour
         index++;
         lastChar = charToPrint;
     }
+
+    public void Reset()
+    {
+        textMeshPro.text = text;
+        lastUpdate = Time.time;
+    }
 }

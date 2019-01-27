@@ -286,7 +286,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 23
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: a8033854e5d44294e9a4aca7cd8c4913, type: 2}
   m_TargetDisplay: 0
@@ -558,6 +558,41 @@ PrefabInstance:
     - target: {fileID: 6307887768160041631, guid: 58302beaf51708247ab19a672591986d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2064828231043387612, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761119852590365203, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3761119852590365203, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4092518556198784085, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647363268483300690, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647363268483300690, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2382673844436139418, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1140,6 +1175,26 @@ PrefabInstance:
       propertyPath: stopTime
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 3870190612637491335, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3870190612637491335, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367710612945532452, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2367710612945532452, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69bdfcc1a1481304bb745406d019309a, type: 3}
 --- !u!1001 &1199156943546437713
@@ -1471,6 +1526,26 @@ PrefabInstance:
       propertyPath: initialWait
       value: 46
       objectReference: {fileID: 0}
+    - target: {fileID: 3372115157394101460, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3372115157394101460, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168601820420928250, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9168601820420928250, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 091f601321cb1f8419d3e102df3bb0f1, type: 3}
 --- !u!1001 &8058905714891241384
@@ -1688,6 +1763,16 @@ PrefabInstance:
         type: 3}
       propertyPath: timeForStop
       value: 8.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888831014343162352, guid: 5699b3374761cd2489509fbf6ff47a54,
+        type: 3}
+      propertyPath: m_havePropertiesChanged
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8888831014343162352, guid: 5699b3374761cd2489509fbf6ff47a54,
+        type: 3}
+      propertyPath: m_isInputParsingRequired
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5699b3374761cd2489509fbf6ff47a54, type: 3}

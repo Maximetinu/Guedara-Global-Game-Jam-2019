@@ -227,52 +227,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119222, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300002, guid: 26f322944ae38704bb501506f9a37827,
-        type: 3}
-    - target: {fileID: 760380652985119222, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119222, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_Size.y
-      value: 6.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119222, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_WasSpriteAssigned
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119225, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.pivot.x
-      value: 0.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119225, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119225, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 6.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119225, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 760380652985119225, guid: cefcff3534d68a340b57cc7825032520,
-        type: 3}
-      propertyPath: m_SpriteTilingProperty.newSize.y
-      value: 6.4
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cefcff3534d68a340b57cc7825032520, type: 3}
 --- !u!1 &261156148
@@ -616,7 +570,6 @@ GameObject:
   - component: {fileID: 719340018}
   - component: {fileID: 719340017}
   - component: {fileID: 719340020}
-  - component: {fileID: 719340022}
   - component: {fileID: 719340021}
   m_Layer: 9
   m_Name: Main Camera
@@ -675,8 +628,8 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!224 &719340019
-RectTransform:
+--- !u!4 &719340019
+Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -689,11 +642,6 @@ RectTransform:
   m_Father: {fileID: 2139410983}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &719340020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -770,27 +718,6 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   m_MaxRayIntersections: 0
---- !u!223 &719340022
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 719340016}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 2
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
 --- !u!1 &1275963032
 GameObject:
   m_ObjectHideFlags: 0

@@ -101,15 +101,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300002, guid: 26f322944ae38704bb501506f9a37827, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 2.857143, y: 4.571429}
+  m_Size: {x: 4, y: 6.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
 --- !u!95 &760380652985119227
@@ -147,15 +147,15 @@ BoxCollider2D:
   m_Offset: {x: 0.027295709, y: 1.2509277}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.525, y: 0}
-    oldSize: {x: 2.857143, y: 4.571429}
-    newSize: {x: 2.857143, y: 4.571429}
+    pivot: {x: 0.4, y: 0}
+    oldSize: {x: 4, y: 6.4}
+    newSize: {x: 4, y: 6.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.68520665, y: 2.5018554}
+  m_Size: {x: 2.8, y: 2.5018554}
   m_EdgeRadius: 0
 --- !u!1001 &760380652176268579
 PrefabInstance:
@@ -256,29 +256,13 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 1631295662, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1631295660, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: m_havePropertiesChanged
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1631295660, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: m_isInputParsingRequired
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
       propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
+      propertyPath: finalTimeToFinish
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
       propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -289,12 +273,16 @@ PrefabInstance:
       value: set_enabled
       objectReference: {fileID: 0}
     - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
+      propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
       propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 1631295659, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
-      propertyPath: finalTimeToFinish
-      value: 2.5
+      propertyPath: onTextFinish.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5bc69ed2e6fa17440b49aaede1aee2d0, type: 3}
