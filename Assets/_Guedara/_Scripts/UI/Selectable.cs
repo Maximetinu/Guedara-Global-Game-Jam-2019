@@ -16,10 +16,12 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        ResetCursor();
         if (eventData.pointerCurrentRaycast.gameObject == gameObject)
         {
-            onSelect.Invoke();
+            if(onSelect != null){
+                ResetCursor();
+                onSelect.Invoke();
+            }
         }
     }
     

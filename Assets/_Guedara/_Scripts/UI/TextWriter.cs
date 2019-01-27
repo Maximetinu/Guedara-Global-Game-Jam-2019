@@ -18,13 +18,13 @@ public class TextWriter : MonoBehaviour
     private String text;
     private float lastUpdate;
     private int index = 0;
-    private TextMeshProUGUI textMeshPro;
+    private TextMeshPro textMeshPro;
     private char lastChar = ' ';
     
     // Start is called before the first frame update
     private void Start()
     {
-        textMeshPro = GetComponent<TextMeshProUGUI>();
+        textMeshPro = GetComponent<TextMeshPro>();
         text = textMeshPro.text;
         textMeshPro.text = "";
         lastUpdate = Time.time;
