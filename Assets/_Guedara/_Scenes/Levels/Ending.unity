@@ -220,7 +220,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 99
+  m_firstOverflowCharacterIndex: 80
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -248,7 +248,7 @@ MonoBehaviour:
     spaceCount: 63
     wordCount: 54
     linkCount: 0
-    lineCount: 27
+    lineCount: 28
     pageCount: 1
     materialCount: 1
   m_havePropertiesChanged: 0
@@ -446,7 +446,7 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 400, y: 600}
+  m_ReferenceResolution: {x: 380, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
