@@ -490,11 +490,11 @@ MonoBehaviour:
     lineCount: 1
     pageCount: 1
     materialCount: 1
-  m_havePropertiesChanged: 0
+  m_havePropertiesChanged: 1
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_isInputParsingRequired: 0
+  m_isInputParsingRequired: 1
   m_inputSource: 0
   m_hasFontAssetChanged: 0
   m_renderer: {fileID: 117883333}
@@ -807,14 +807,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6bbc0db4bb2f3124e84cf51539cd881c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minutesSpriteRenderer: {fileID: 507696460}
-  minutesSprites:
-  - {fileID: 21300006, guid: 23a1985106b36334ab6fdb83e3816242, type: 3}
-  - {fileID: 21300008, guid: 23a1985106b36334ab6fdb83e3816242, type: 3}
-  - {fileID: 21300010, guid: 23a1985106b36334ab6fdb83e3816242, type: 3}
-  - {fileID: 21300012, guid: 23a1985106b36334ab6fdb83e3816242, type: 3}
-  - {fileID: 21300014, guid: 23a1985106b36334ab6fdb83e3816242, type: 3}
-  quarterHourWaitTime: 60
+  clockHandsSpriteRenderer: {fileID: 0}
+  clockHandSprites: []
+  quarterWaitTime: 60
   overrideFirstAtStart: 1
 --- !u!1 &507696458
 GameObject:
