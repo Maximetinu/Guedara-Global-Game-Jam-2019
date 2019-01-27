@@ -1,10 +1,11 @@
 fileFormatVersion: 2
-guid: 7ee194eaa47be9b46b0a1486cea588ca
+guid: 23bf48468a65cd149bc8d8691f30c1fe
 TextureImporter:
   fileIDToRecycleName:
-    21300000: abuela_caminando_invierno_0
-    21300002: abuela_caminando_invierno_1
-    21300004: abuela_caminando_invierno_2
+    21300000: jovencito_caminando_invierno_0
+    21300002: jovencito_caminando_invierno_1
+    21300004: jovencito_caminando_invierno_2
+    21300006: jovencito_caminando_invierno_3
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -48,9 +49,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5
+  spritePixelsToUnits: 7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -120,7 +121,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abuela_caminando_invierno_0
+      name: jovencito_caminando_invierno_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,26 +129,25 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3, y: -2}
-        - {x: -7, y: -6}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -9}
-        - {x: 3, y: -3}
-        - {x: 1, y: -2}
+      - - {x: -2, y: 6}
+        - {x: -4, y: 5}
+        - {x: -4, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 5}
+        - {x: 2, y: 6}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 153595952aba9594285e54bb6a420f33
+      spriteID: c46825fbadca3e443a1d02377bb236cd
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_caminando_invierno_1
+      name: jovencito_caminando_invierno_1
       rect:
         serializedVersion: 2
         x: 20
@@ -155,27 +155,25 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 3, y: -1}
-        - {x: -2, y: -1}
-        - {x: -7, y: -4}
-        - {x: -7, y: -13}
-        - {x: -6, y: -16}
-        - {x: 1, y: -16}
-        - {x: 2, y: -15}
-        - {x: 3, y: -12}
+      - - {x: -4, y: 6}
+        - {x: -4, y: -16}
+        - {x: 2, y: -16}
+        - {x: 6, y: -13}
+        - {x: 6, y: -1}
+        - {x: 4, y: 6}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b90b118e11ec0e4992dda512d983f23
+      spriteID: 3b283af48f21c7441a9bf3e536a5e6ed
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_caminando_invierno_2
+      name: jovencito_caminando_invierno_2
       rect:
         serializedVersion: 2
         x: 40
@@ -183,19 +181,48 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.55, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: -1}
-        - {x: -7, y: -5}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -12}
-        - {x: 3, y: -1}
+      - - {x: 4, y: 6}
+        - {x: 0, y: 6}
+        - {x: -5, y: 4}
+        - {x: -5, y: -16}
+        - {x: 6, y: -16}
+        - {x: 6, y: -1}
+        - {x: 5, y: 5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 311651a4ee732af4ba0893cf4be371f8
+      spriteID: bc3c85c1f8eeb784ba88f805a5699cd8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jovencito_caminando_invierno_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.55, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 6}
+        - {x: -4, y: 5}
+        - {x: -4, y: -15}
+        - {x: -2, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -8}
+        - {x: 5, y: 2}
+        - {x: 3, y: 6}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c9c3a89eb9a8c148886b9501da0ad95
       vertices: []
       indices: 
       edges: []

@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 7ee194eaa47be9b46b0a1486cea588ca
+guid: fb04c933cb58f374b965be8160bd9ecc
 TextureImporter:
   fileIDToRecycleName:
-    21300000: abuela_caminando_invierno_0
-    21300002: abuela_caminando_invierno_1
-    21300004: abuela_caminando_invierno_2
+    21300000: jovencita_caminando_verano_0
+    21300002: jovencita_caminando_verano_1
+    21300004: jovencita_caminando_verano_2
+    21300006: jovencita_caminando_verano_3
+    21300008: jovencita_caminando_verano_4
+    21300010: jovencita_caminando_verano_5
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -48,9 +51,9 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 5
+  spritePixelsToUnits: 7
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -120,7 +123,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: abuela_caminando_invierno_0
+      name: jovencita_caminando_verano_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,26 +131,27 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.525, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -3, y: -2}
-        - {x: -7, y: -6}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -9}
-        - {x: 3, y: -3}
-        - {x: 1, y: -2}
+      - - {x: -2, y: 5}
+        - {x: -3, y: 2}
+        - {x: -4, y: -2}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -5}
+        - {x: 5, y: 4}
+        - {x: 3, y: 5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 153595952aba9594285e54bb6a420f33
+      spriteID: 8970d29afda5fb24498583666eceb043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_caminando_invierno_1
+      name: jovencita_caminando_verano_1
       rect:
         serializedVersion: 2
         x: 20
@@ -155,27 +159,27 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.525, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 3, y: -1}
-        - {x: -2, y: -1}
-        - {x: -7, y: -4}
-        - {x: -7, y: -13}
-        - {x: -6, y: -16}
-        - {x: 1, y: -16}
-        - {x: 2, y: -15}
-        - {x: 3, y: -12}
+      - - {x: -2, y: 5}
+        - {x: -3, y: 2}
+        - {x: -4, y: -2}
+        - {x: -3, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -5}
+        - {x: 5, y: 4}
+        - {x: 3, y: 5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b90b118e11ec0e4992dda512d983f23
+      spriteID: 45aa5a56257efd240b5c9e5f31ab8df1
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: abuela_caminando_invierno_2
+      name: jovencita_caminando_verano_2
       rect:
         serializedVersion: 2
         x: 40
@@ -183,19 +187,102 @@ TextureImporter:
         width: 20
         height: 32
       alignment: 9
-      pivot: {x: 0.425, y: 0}
+      pivot: {x: 0.525, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -2, y: -1}
-        - {x: -7, y: -5}
-        - {x: -7, y: -16}
-        - {x: 2, y: -16}
-        - {x: 3, y: -12}
-        - {x: 3, y: -1}
+      - - {x: -2, y: 5}
+        - {x: -3, y: 2}
+        - {x: -4, y: -2}
+        - {x: -4, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 5}
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 311651a4ee732af4ba0893cf4be371f8
+      spriteID: 94af9d6f53ba43647b6613efeef7b00f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jovencita_caminando_verano_3
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.525, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5}
+        - {x: -4, y: 3}
+        - {x: -4, y: -15}
+        - {x: -3, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 4}
+        - {x: 2, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4b80c7b1f67da40944e3a5aca2bb13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jovencita_caminando_verano_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.525, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 5}
+        - {x: -4, y: 3}
+        - {x: -4, y: -13}
+        - {x: -2, y: -16}
+        - {x: 5, y: -16}
+        - {x: 5, y: 4}
+        - {x: 3, y: 5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d907a9fb33ac3ef408c08b8f6d080554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jovencita_caminando_verano_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 20
+        height: 32
+      alignment: 9
+      pivot: {x: 0.525, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: 4}
+        - {x: -2, y: 4}
+        - {x: -3, y: 1}
+        - {x: -4, y: -3}
+        - {x: -3, y: -15}
+        - {x: -2, y: -16}
+        - {x: 4, y: -16}
+        - {x: 5, y: -6}
+        - {x: 5, y: 3}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d470263941140499a68437c888c217
       vertices: []
       indices: 
       edges: []
