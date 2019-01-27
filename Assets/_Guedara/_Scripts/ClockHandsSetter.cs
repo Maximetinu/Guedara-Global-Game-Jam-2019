@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class ClockHandsSetter : MonoBehaviour
 {
-    public SpriteRenderer minutesSpriteRenderer;
-    public Sprite[] minutesSprites;
-    public float quarterHourWaitTime = 60f;
+    public SpriteRenderer clockHandsSpriteRenderer;
+    public Sprite[] clockHandSprites;
+    public float quarterWaitTime = 60f;
     
     [Space(10)]
     public bool overrideFirstAtStart = false;
@@ -16,18 +16,18 @@ public class ClockHandsSetter : MonoBehaviour
     // Start is called before the first frame update
     IEnumerator Start()
     {
-        if (overrideFirstAtStart && minutesSprites.Length >= 1)
+        if (overrideFirstAtStart && clockHandSprites.Length >= 1)
         {
-            minutesSpriteRenderer.sprite = minutesSprites[0];
+            clockHandsSpriteRenderer.sprite = clockHandSprites[0];
             currentSprite++;
         }
 
 
-        while (minutesSprites.Length > currentSprite)
+        while (clockHandSprites.Length > currentSprite)
         {
-            yield return new WaitForSeconds(quarterHourWaitTime);
+            yield return new WaitForSeconds(quarterWaitTime);
 
-            minutesSpriteRenderer.sprite = minutesSprites[currentSprite];
+            clockHandsSpriteRenderer.sprite = clockHandSprites[currentSprite];
             currentSprite++;
         }
     }
