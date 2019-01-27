@@ -45,6 +45,15 @@ public class ChangeScene : MonoBehaviour
         yield return Fade(fadeDirection);
         SceneManager.LoadScene(sceneToLoad);
     }
+    
+    public void FadeOut()
+    {
+        Fade(FadeDirection.Out);
+    }
+    public void FadeIn()
+    {
+        Fade(FadeDirection.In);
+    }
 
     public void LoadScene(string sceneToLoad)
     {
