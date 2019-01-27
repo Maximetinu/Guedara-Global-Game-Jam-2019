@@ -508,6 +508,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 2
   timePlayingArmonica: 6
+  waitTimeToPlay: 3
   onPlayArmonica:
     m_PersistentCalls:
       m_Calls:
@@ -866,6 +867,7 @@ GameObject:
   - component: {fileID: 1524613494}
   - component: {fileID: 1524613493}
   - component: {fileID: 1524613492}
+  - component: {fileID: 1524613491}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -873,6 +875,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &1524613491
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1524613490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dffe45b29ae3114cbb09f2d302a1a41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  restart: 1
 --- !u!114 &1524613492
 MonoBehaviour:
   m_ObjectHideFlags: 0
