@@ -7565,7 +7565,7 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  sceneTimeDuration: 98
+  sceneTimeDuration: 93
   timeToTrain: 30
   train: {fileID: 2071166409}
 --- !u!4 &1149635652
