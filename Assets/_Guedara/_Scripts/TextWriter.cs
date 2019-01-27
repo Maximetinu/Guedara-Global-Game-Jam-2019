@@ -11,6 +11,7 @@ public class TextWriter : MonoBehaviour
     public float pointWait = 0.4f;
     public float commaWait = 0.2f;
     public float initialWait = 2.0f;
+    public float finalTimeToFinish = 1.0f;
 
     public UnityEvent onTextFinish;
 
@@ -34,7 +35,7 @@ public class TextWriter : MonoBehaviour
     {
         if (text.Length <= index)
         {
-            onTextFinish?.Invoke();
+            if ((lastUpdate + finalTimeToFinish) <= Time.time) onTextFinish?.Invoke();
             return;
         }
 
