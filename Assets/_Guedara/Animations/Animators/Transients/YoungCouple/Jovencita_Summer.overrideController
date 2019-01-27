@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Jovencita_Summer
+  m_Controller: {fileID: 9100000, guid: 7c0f4a591edd3c44d99b8b4bf231e9a3, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9cac8e038f4e31941872b6c16d7a8885, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 4594fe9ffca4e744399050eb0d4467a4, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 77b7f4e062222894aa0933e359f98d0b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8e89ff33ec855914782df562d94a725b, type: 2}
