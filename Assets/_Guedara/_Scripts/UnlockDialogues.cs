@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class UnlockDialogues : MonoBehaviour
 {
+    public bool restart = false;
     public static bool catUnlock = false;
 
     public static bool familyUnlock = false;
@@ -13,6 +14,14 @@ public class UnlockDialogues : MonoBehaviour
     public static bool coupleUnlock = false;
 
     public static bool oldCoupleUnlock = false;
+
+    void Start()
+    {
+        if (restart)
+        {
+            ResetAll();
+        }
+    }
 
     public void UnlockCat()
     {
@@ -37,5 +46,14 @@ public class UnlockDialogues : MonoBehaviour
     public void UnlockOldCouple()
     {
         UnlockDialogues.oldCoupleUnlock = true;
+    }
+
+    public void ResetAll()
+    {
+        catUnlock = false;
+        familyUnlock = false;
+        studentUnlock = false;
+        coupleUnlock = false;
+        oldCoupleUnlock = false;
     }
 }
