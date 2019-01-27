@@ -10,6 +10,7 @@ public class GuedaraMovement : MonoBehaviour
     public float speed;
 
     public float timePlayingArmonica = 6;
+    public float waitTimeToPlay = 3f;
     public UnityEvent onPlayArmonica;
 
     SpriteRenderer mySprite;
@@ -64,7 +65,7 @@ public class GuedaraMovement : MonoBehaviour
             myAnim.SetTrigger("coger_armonica");
             Destroy(other.gameObject);
             canMove = false;
-            playArmonica();
+            Invoke("playArmonica", waitTimeToPlay);
         }
 
     }
