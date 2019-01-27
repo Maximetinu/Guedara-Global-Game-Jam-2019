@@ -3,7 +3,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
 
-[RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Collider2D))]
 public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, IPointerExitHandler
 {
     public Texture2D cursorHoverTexture;
@@ -36,5 +36,10 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     private void ResetCursor()
     {
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+    }
+
+    void OnDestroy()
+    {
+        ResetCursor();
     }
 }
