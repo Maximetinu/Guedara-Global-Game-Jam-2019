@@ -10,12 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
-  m_Name: Autumn
+  m_Name: Winter
   m_EditorClassIdentifier: 
   settings:
-  - {fileID: 114197949101667644}
-  - {fileID: 114815678556633246}
---- !u!114 &114197949101667644
+  - {fileID: 114006296723984878}
+  - {fileID: 114650529543592424}
+  - {fileID: 114698525090595728}
+--- !u!114 &114006296723984878
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -42,7 +43,7 @@ MonoBehaviour:
     value: {x: 0.5, y: 0.5}
   intensity:
     overrideState: 1
-    value: 0.317
+    value: 0.408
   smoothness:
     overrideState: 1
     value: 0.856
@@ -59,7 +60,54 @@ MonoBehaviour:
   opacity:
     overrideState: 1
     value: 1
---- !u!114 &114815678556633246
+--- !u!114 &114650529543592424
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48a79b01ea5641d4aa6daa2e23605641, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 14.46
+  threshold:
+    overrideState: 1
+    value: 0.78
+  softKnee:
+    overrideState: 1
+    value: 0.362
+  clamp:
+    overrideState: 1
+    value: 65472
+  diffusion:
+    overrideState: 1
+    value: 3.27
+  anamorphicRatio:
+    overrideState: 1
+    value: 0
+  color:
+    overrideState: 1
+    value: {r: 1, g: 1, b: 1, a: 1}
+  fastMode:
+    overrideState: 1
+    value: 0
+  dirtTexture:
+    overrideState: 1
+    value: {fileID: 0}
+    defaultState: 1
+  dirtIntensity:
+    overrideState: 1
+    value: 0
+--- !u!114 &114698525090595728
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -112,28 +160,28 @@ MonoBehaviour:
     value: 1
   temperature:
     overrideState: 1
-    value: 20
+    value: -29
   tint:
     overrideState: 1
     value: 0
   colorFilter:
     overrideState: 1
-    value: {r: 0.9433962, g: 0.64070666, b: 0.493948, a: 1}
+    value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
     overrideState: 1
     value: 0
   saturation:
     overrideState: 1
-    value: -31
+    value: -32.42
   brightness:
     overrideState: 1
     value: 0
   postExposure:
     overrideState: 1
-    value: -0.28
+    value: -1.35
   contrast:
     overrideState: 1
-    value: -8
+    value: 0.56
   mixerRedOutRedIn:
     overrideState: 1
     value: 100
