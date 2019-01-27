@@ -522,8 +522,8 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  sceneTimeDuration: 90
-  timeToTrain: 70
+  sceneTimeDuration: 80
+  timeToTrain: 65
   train: {fileID: 744069331}
 --- !u!4 &241247415
 Transform:
@@ -1829,6 +1829,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.91999984
       objectReference: {fileID: 0}
+    - target: {fileID: 215999621903546766, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.03
+      objectReference: {fileID: 0}
     - target: {fileID: 215999621137404337, guid: 69bdfcc1a1481304bb745406d019309a,
         type: 3}
       propertyPath: m_SpriteSortPoint
@@ -1853,11 +1858,6 @@ PrefabInstance:
         type: 3}
       propertyPath: stopTime
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 215999621903546766, guid: 69bdfcc1a1481304bb745406d019309a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 215999621903546753, guid: 69bdfcc1a1481304bb745406d019309a,
         type: 3}
@@ -2274,6 +2274,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 7357699617536833263, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 7357699617142723914, guid: 091f601321cb1f8419d3e102df3bb0f1,
         type: 3}
       propertyPath: stopTime
@@ -2288,11 +2293,6 @@ PrefabInstance:
         type: 3}
       propertyPath: initialWait
       value: 46
-      objectReference: {fileID: 0}
-    - target: {fileID: 7357699617536833263, guid: 091f601321cb1f8419d3e102df3bb0f1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 7357699617536833262, guid: 091f601321cb1f8419d3e102df3bb0f1,
         type: 3}
