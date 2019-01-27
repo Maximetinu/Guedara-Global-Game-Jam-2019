@@ -5,24 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/4542f432901324c4993c39f15d4578d9
-    guid: 4542f432901324c4993c39f15d4578d9
+  - enabled: 1
+    path: Assets/_Guedara/_Scenes/Levels/Title.unity
+    guid: 89ac6df64ddc5154a9e63c6983a16630
   - enabled: 1
     path: Assets/_Guedara/_Scenes/Levels/Beginning.unity
     guid: 4d72cd660c8c44a4a80fccfc46f6827d
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/9d21825dfad643349b9ee6d4ff513a28
-    guid: 9d21825dfad643349b9ee6d4ff513a28
-  - enabled: 0
-    path: Assets/__DELETED_GUID_Trash/e3014333cb3f75b499f3a14ed5fef8c4
-    guid: e3014333cb3f75b499f3a14ed5fef8c4
-  - enabled: 1
-    path: Assets/_Guedara/_Scenes/Levels/Winter.unity
-    guid: de30db5c6c3b9944f9be8c65d6dc712e
   - enabled: 1
     path: Assets/_Guedara/_Scenes/Levels/Summer.unity
     guid: d86b7f7e6c52f0548afbca1dbafd987d
@@ -30,6 +18,9 @@ EditorBuildSettings:
     path: Assets/_Guedara/_Scenes/Levels/Autumn.unity
     guid: 8668ece1582230b4bb6855dd44646ab4
   - enabled: 1
+    path: Assets/_Guedara/_Scenes/Levels/Winter.unity
+    guid: de30db5c6c3b9944f9be8c65d6dc712e
+  - enabled: 1
     path: Assets/_Guedara/_Scenes/Levels/Ending.unity
-    guid: 89ac6df64ddc5154a9e63c6983a16630
+    guid: 5595f1fc343be7247918cd330861541a
   m_configObjects: {}
