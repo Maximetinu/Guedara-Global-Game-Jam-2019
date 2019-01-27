@@ -1,8 +1,5 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
-using Vector3 = UnityEngine.Vector3;
 
 public class TransientMovement : MonoBehaviour
 {
@@ -12,6 +9,7 @@ public class TransientMovement : MonoBehaviour
     public float timeForStop = 4f;
     public float stopTime = 4f;
     public bool flipWhenStop = false;
+    public bool goBack = false;
 
     [Space(10)] [Range(0.2f, 4f)]
     public float animSpeed = 1f;
@@ -56,6 +54,12 @@ public class TransientMovement : MonoBehaviour
         if (flipWhenStop)
         {
             mySprite.flipX = !mySprite.flipX;
+        }
+
+        if (goBack)
+        {
+            mySprite.flipX = !mySprite.flipX;
+            speed = -speed;
         }
     }
 
