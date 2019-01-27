@@ -9,9 +9,14 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     public Texture2D cursorHoverTexture;
     public UnityEvent onSelect;
 
+    private void Start()
+    {
+        if (cursorHoverTexture == null) cursorHoverTexture = Resources.Load("hand") as Texture2D;
+    }
+
     public void OnPointerDown(PointerEventData eventData)
     {
-        Debug.Log("On pointer down");
+        ResetCursor();
         if (eventData.pointerCurrentRaycast.gameObject == gameObject)
         {
             onSelect.Invoke();
@@ -24,6 +29,11 @@ public class Selectable : MonoBehaviour, IPointerDownHandler, IPointerEnterHandl
     }
 
     public void OnPointerExit(PointerEventData eventData)
+    {
+        ResetCursor();
+    }
+
+    private void ResetCursor()
     {
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
     }
