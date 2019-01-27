@@ -522,8 +522,8 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
-  sceneTimeDuration: 90
-  timeToTrain: 70
+  sceneTimeDuration: 80
+  timeToTrain: 65
   train: {fileID: 744069331}
 --- !u!4 &241247415
 Transform:
@@ -980,6 +980,16 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8617102335911470580, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.002500534
+      objectReference: {fileID: 0}
+    - target: {fileID: 5375304043737290088, guid: 58302beaf51708247ab19a672591986d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0024986267
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 58302beaf51708247ab19a672591986d, type: 3}
 --- !u!1 &719340016
@@ -1297,6 +1307,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Volume
       value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6291940883061416899, guid: 0f1dbcd3b1a5a5e46bb3e140df5da04c,
+        type: 3}
+      propertyPath: Priority
+      value: 32
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0f1dbcd3b1a5a5e46bb3e140df5da04c, type: 3}
@@ -1829,6 +1844,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 0.91999984
       objectReference: {fileID: 0}
+    - target: {fileID: 215999621903546766, guid: 69bdfcc1a1481304bb745406d019309a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.03
+      objectReference: {fileID: 0}
     - target: {fileID: 215999621137404337, guid: 69bdfcc1a1481304bb745406d019309a,
         type: 3}
       propertyPath: m_SpriteSortPoint
@@ -1853,11 +1873,6 @@ PrefabInstance:
         type: 3}
       propertyPath: stopTime
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 215999621903546766, guid: 69bdfcc1a1481304bb745406d019309a,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 215999621903546753, guid: 69bdfcc1a1481304bb745406d019309a,
         type: 3}
@@ -2200,6 +2215,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6970271260363675728, guid: d1c8392554b5a514abc2028a779da63f,
+        type: 3}
+      propertyPath: Priority
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 6970271260363675728, guid: d1c8392554b5a514abc2028a779da63f,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d1c8392554b5a514abc2028a779da63f, type: 3}
 --- !u!1001 &7357699617283053561
@@ -2274,6 +2299,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 7357699617536833263, guid: 091f601321cb1f8419d3e102df3bb0f1,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -12
+      objectReference: {fileID: 0}
     - target: {fileID: 7357699617142723914, guid: 091f601321cb1f8419d3e102df3bb0f1,
         type: 3}
       propertyPath: stopTime
@@ -2288,11 +2318,6 @@ PrefabInstance:
         type: 3}
       propertyPath: initialWait
       value: 46
-      objectReference: {fileID: 0}
-    - target: {fileID: 7357699617536833263, guid: 091f601321cb1f8419d3e102df3bb0f1,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -12
       objectReference: {fileID: 0}
     - target: {fileID: 7357699617536833262, guid: 091f601321cb1f8419d3e102df3bb0f1,
         type: 3}
