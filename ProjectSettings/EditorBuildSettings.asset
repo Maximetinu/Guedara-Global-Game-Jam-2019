@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/_Guedara/_Scenes/Beginning.unity
+    guid: 4542f432901324c4993c39f15d4578d9
+  - enabled: 1
+    path: Assets/_Guedara/_Scenes/Levels/Summer.unity
+    guid: 9d21825dfad643349b9ee6d4ff513a28
   m_configObjects: {}
