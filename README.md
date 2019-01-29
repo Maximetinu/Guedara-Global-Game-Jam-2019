@@ -15,3 +15,4 @@ Game for the GGJ2019, made in a weekend. Theme: HOME. Engine: Unity.
 * María del Mar Salas Sánchez - [Instagram @kapeachi](https://www.instagram.com/kapeachi)
 * Mariana Quiñones Blánquez 
 * Miguel Medina Ballesteros - [GitHub @Maximetinu](https://www.github.com/maximetinu)
+* Ignacio Perandrés
